@@ -227,12 +227,10 @@ var MainNetParams = Params{
 	Net:         wire.MainNet,
 	DefaultPort: "8333",
 	DNSSeeds: []DNSSeed{
-		{"seed.bitcoin.sipa.be", true},
-		{"dnsseed.bluematt.me", true},
-		{"dnsseed.bitcoin.dashjr.org", false},
-		{"seed.bitcoinstats.com", true},
-		{"seed.bitnodes.io", false},
-		{"seed.bitcoin.jonasschnelli.ch", true},
+		{"dnsseed.darkcoin.io", true},
+		{"dnsseed.dashdot.io", true},
+		{"dnsseed.masternode.io", false},
+		{"dnsseed.dashpay.io", true},
 	},
 
 	// Chain parameters
@@ -306,9 +304,9 @@ var MainNetParams = Params{
 	Bech32HRPSegwit: "bc", // always bc for main net
 
 	// Address encoding magics
-	PubKeyHashAddrID:        0x00, // starts with 1
-	ScriptHashAddrID:        0x05, // starts with 3
-	PrivateKeyID:            0x80, // starts with 5 (uncompressed) or K (compressed)
+	PubKeyHashAddrID:        0x4c, // starts with 1
+	ScriptHashAddrID:        0x10, // starts with 3
+	PrivateKeyID:            0xcc, // starts with 5 (uncompressed) or K (compressed)
 	WitnessPubKeyHashAddrID: 0x06, // starts with p2
 	WitnessScriptHashAddrID: 0x0A, // starts with 7Xh
 
@@ -318,7 +316,7 @@ var MainNetParams = Params{
 
 	// BIP44 coin type used in the hierarchical deterministic path for
 	// address generation.
-	HDCoinType: 0,
+	HDCoinType: 5,
 }
 
 // RegressionNetParams defines the network parameters for the regression test
@@ -403,10 +401,9 @@ var TestNet3Params = Params{
 	Net:         wire.TestNet3,
 	DefaultPort: "18333",
 	DNSSeeds: []DNSSeed{
-		{"testnet-seed.bitcoin.jonasschnelli.ch", true},
-		{"testnet-seed.bitcoin.schildbach.de", false},
-		{"seed.tbtc.petertodd.org", true},
-		{"testnet-seed.bluematt.me", false},
+		{"testnet-seed.darkcoin.io", true},
+		{"testnet-seed.dashdot.io", false},
+		{"test.dnsseed.masternode.io", true},
 	},
 
 	// Chain parameters
@@ -473,8 +470,8 @@ var TestNet3Params = Params{
 	Bech32HRPSegwit: "tb", // always tb for test net
 
 	// Address encoding magics
-	PubKeyHashAddrID:        0x6f, // starts with m or n
-	ScriptHashAddrID:        0xc4, // starts with 2
+	PubKeyHashAddrID:        0x8c, // starts with m or n
+	ScriptHashAddrID:        0x13, // starts with 2
 	WitnessPubKeyHashAddrID: 0x03, // starts with QW
 	WitnessScriptHashAddrID: 0x28, // starts with T7n
 	PrivateKeyID:            0xef, // starts with 9 (uncompressed) or c (compressed)
@@ -485,7 +482,7 @@ var TestNet3Params = Params{
 
 	// BIP44 coin type used in the hierarchical deterministic path for
 	// address generation.
-	HDCoinType: 1,
+	HDCoinType: 5,
 }
 
 // SimNetParams defines the network parameters for the simulation test Bitcoin
