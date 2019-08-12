@@ -23,8 +23,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/rocpig/dash/chaincfg/chainhash"
+	"github.com/rocpig/dash/wire"
 )
 
 // AddrManager provides a concurrency safe address manager for caching potential

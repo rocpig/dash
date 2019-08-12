@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/rocpig/dash/chaincfg/chainhash"
+	"github.com/rocpig/dash/wire"
 )
 
 // TestMruInventoryMap ensures the MruInventoryMap behaves as expected including

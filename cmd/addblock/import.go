@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/blockchain/indexers"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/rocpig/dash/blockchain"
+	"github.com/rocpig/dash/blockchain/indexers"
+	"github.com/rocpig/dash/chaincfg/chainhash"
+	"github.com/rocpig/dash/database"
+	"github.com/rocpig/dash/wire"
 	"github.com/btcsuite/btcutil"
 )
 

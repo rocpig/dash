@@ -14,13 +14,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/integration/rpctest"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/rocpig/dash/blockchain"
+	"github.com/rocpig/dash/btcec"
+	"github.com/rocpig/dash/chaincfg"
+	"github.com/rocpig/dash/chaincfg/chainhash"
+	"github.com/rocpig/dash/integration/rpctest"
+	"github.com/rocpig/dash/txscript"
+	"github.com/rocpig/dash/wire"
 	"github.com/btcsuite/btcutil"
 )
 

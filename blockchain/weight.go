@@ -7,8 +7,8 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/rocpig/dash/txscript"
+	"github.com/rocpig/dash/wire"
 	"github.com/btcsuite/btcutil"
 )
 

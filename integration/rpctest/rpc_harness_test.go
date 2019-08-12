@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/rocpig/dash/chaincfg"
+	"github.com/rocpig/dash/chaincfg/chainhash"
+	"github.com/rocpig/dash/txscript"
+	"github.com/rocpig/dash/wire"
 	"github.com/btcsuite/btcutil"
 )
 
