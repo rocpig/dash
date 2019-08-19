@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/rocpig/dash/database"
-	"github.com/btcsuite/btclog"
+	"github.com/rocpig/btclog"
 	flags "github.com/jessevdk/go-flags"
 )
 

@@ -13,7 +13,7 @@ import (
 	"github.com/rocpig/dash/blockchain/indexers"
 	"github.com/rocpig/dash/database"
 	"github.com/rocpig/dash/limits"
-	"github.com/btcsuite/btclog"
+	"github.com/rocpig/btclog"
 )
 
 const (

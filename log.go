@@ -22,7 +22,7 @@ import (
 	"github.com/rocpig/dash/peer"
 	"github.com/rocpig/dash/txscript"
 
-	"github.com/btcsuite/btclog"
+	"github.com/rocpig/btclog"
 	"github.com/jrick/logrotate/rotator"
 )
 

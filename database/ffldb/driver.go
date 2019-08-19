@@ -9,7 +9,7 @@ import (
 
 	"github.com/rocpig/dash/database"
 	"github.com/rocpig/dash/wire"
-	"github.com/btcsuite/btclog"
+	"github.com/rocpig/btclog"
 )
 
 var log = btclog.Disabled

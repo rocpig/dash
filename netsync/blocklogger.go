@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btclog"
+	"github.com/rocpig/btclog"
 	"github.com/btcsuite/btcutil"
 )
 
