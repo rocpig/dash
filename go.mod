@@ -15,6 +15,7 @@ require (
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jrick/logrotate v1.0.0
 	github.com/kkdai/bstream v1.0.0 // indirect
+	github.com/rocpig/btclog v0.0.0-20190819030556-053337113880 // indirect
 	github.com/rocpig/dashutil v0.0.0-20190315023945-1b39fba8f748
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
 )
