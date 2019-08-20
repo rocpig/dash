@@ -12,7 +12,7 @@ import (
 	"github.com/rocpig/dash/chaincfg"
 	"github.com/rocpig/dash/chaincfg/chainhash"
 	"github.com/rocpig/dash/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/rocpig/dashutil"
 )
 
 // TestHaveBlock tests the HaveBlock API to ensure proper functionality.

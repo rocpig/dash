@@ -12,9 +12,9 @@ import (
 	"github.com/rocpig/dash/chaincfg/chainhash"
 	"github.com/rocpig/dash/database"
 	"github.com/rocpig/dash/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/gcs"
-	"github.com/btcsuite/btcutil/gcs/builder"
+	"github.com/rocpig/dashutil"
+	"github.com/rocpig/dashutil/gcs"
+	"github.com/rocpig/dashutil/gcs/builder"
 )
 
 const (

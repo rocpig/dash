@@ -11,7 +11,7 @@ import (
 	"github.com/rocpig/dash/database"
 	"github.com/rocpig/dash/txscript"
 	"github.com/rocpig/dash/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/rocpig/dashutil"
 )
 
 // txoFlags is a bitmask defining additional information and state for a

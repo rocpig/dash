@@ -14,7 +14,7 @@ import (
 	"github.com/rocpig/dash/chaincfg"
 	"github.com/rocpig/dash/database"
 	_ "github.com/rocpig/dash/database/ffldb"
-	"github.com/btcsuite/btcutil"
+	"github.com/rocpig/dashutil"
 )
 
 // This example demonstrates how to create a new chain instance and use

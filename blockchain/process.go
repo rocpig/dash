@@ -10,7 +10,7 @@ import (
 
 	"github.com/rocpig/dash/chaincfg/chainhash"
 	"github.com/rocpig/dash/database"
-	"github.com/btcsuite/btcutil"
+	"github.com/rocpig/dashutil"
 )
 
 // BehaviorFlags is a bitmask defining tweaks to the normal behavior when

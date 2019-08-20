@@ -13,7 +13,7 @@ import (
 
 	"github.com/rocpig/dash/blockchain"
 	"github.com/rocpig/dash/database"
-	"github.com/btcsuite/btcutil"
+	"github.com/rocpig/dashutil"
 )
 
 var (

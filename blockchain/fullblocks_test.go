@@ -20,7 +20,7 @@ import (
 	_ "github.com/rocpig/dash/database/ffldb"
 	"github.com/rocpig/dash/txscript"
 	"github.com/rocpig/dash/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/rocpig/dashutil"
 )
 
 const (

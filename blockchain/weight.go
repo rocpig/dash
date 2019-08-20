@@ -9,7 +9,7 @@ import (
 
 	"github.com/rocpig/dash/txscript"
 	"github.com/rocpig/dash/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/rocpig/dashutil"
 )
 
 const (

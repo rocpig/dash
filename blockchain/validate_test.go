@@ -13,7 +13,7 @@ import (
 	"github.com/rocpig/dash/chaincfg"
 	"github.com/rocpig/dash/chaincfg/chainhash"
 	"github.com/rocpig/dash/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/rocpig/dashutil"
 )
 
 // TestSequenceLocksActive tests the SequenceLockActive function to ensure it
